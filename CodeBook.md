@@ -131,8 +131,11 @@ The result has been saved with a write.table command as requested.
 - "fbodybodygyrojerkmag-mean"
 - "fbodybodygyrojerkmag-std"
 
-As requested in the assignment, the values of these variables are a computed mean over n(s) observations for subject s and activity y.
+## Added details on (the meaning of) the values
+As requested in the assignment, the values of these variables are a computed mean over n(s,y) observations for subject s and activity y.
 
 The subjects are identified by a number 1 .. 30.
+
 The activities have been labeled: laying, sitting, standing, walking, walking-upstairs, walking-downstairs.
+
 The measurements have standard values: [-1, 1].
