@@ -50,9 +50,12 @@ Once the rows had been combined, the requested columns have been selected and na
 	- replacing the _underscores by -dashes, 
 	- formatting them to lowercase and 
 	- removing the parentheses "()" at the end of the variable names. 
-- The activity and subject files have been given the corresponding values as column name. 
+- The activity and subject files have been given specific values as column name. 
 
-The activities had originally been coded by a number, the numbers have been replaced by their corresponding label using the contents of the activity_labels.txt-file. 
+Some data have been reformatted:
+- The activity-labels have been formatted to lowercase, replacing the _underscores by -dashes.
+- The activities had originally been coded by a number, the numbers have been replaced by their corresponding label using the contents of the activity_labels.txt-file. 
+
 With these three files tidied up, the files have been combined together column wise, taking the identifiers for the measurements as first columns (subject and activity).
 
 This tidy dataset had to be summarised, by taking the means of the columns grouped_by the identifiers subject and activity.
@@ -60,7 +63,7 @@ The result has been saved with a write.table command as requested.
 
 ## Resulting variables 
 - "subject"
-- "activity"
+- "activity"		
 - "tbodyacc-mean-x"
 - "tbodyacc-mean-y"
 - "tbodyacc-mean-z"
@@ -129,3 +132,7 @@ The result has been saved with a write.table command as requested.
 - "fbodybodygyrojerkmag-std"
 
 As requested in the assignment, the values of these variables are a computed mean over n(s) observations for subject s and activity y.
+
+The subjects are identified by a number 1 .. 30.
+The activities have been labeled: laying, sitting, standing, walking, walking-upstairs, walking-downstairs.
+The measurements have standard values: [-1, 1].
