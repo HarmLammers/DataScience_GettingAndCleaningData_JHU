@@ -18,4 +18,5 @@ You will be graded by your peers on a series of yes/no questions related to the 
 
 ## Content of this repository 
 - the run-analysis.R file contains the scripts used to get the requested result
+- the script has been developed on a Windows machine, Windows 10, using R x64 3.2.3
 - the codebook.md contains the description of the file contents, the source and the manipulations to get the result
