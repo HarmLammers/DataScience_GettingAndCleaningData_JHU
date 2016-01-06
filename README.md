@@ -5,15 +5,15 @@ This repo is part of the course project for Data Science Specialisation - Gettin
 
 Instructions
 
-The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
+The purpose of this project is to demonstrate my ability to collect, work with, and clean a data set.
 Review criteria 
 - The submitted data set is tidy.
 - The Github repo contains 
-    - the required scripts - run_analysis.R
-    - a code book          - Codebook.md
+    - the required scripts  - run_analysis.R
+    - a code book           - Codebook.md
       that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, 
       along with units, and any other relevant information.
-    - a readme             - README.md 
+    - a readme             - README.md
       that explains the analysis files is clear and understandable.
       
 The work submitted for this project is the work of the student who submitted it.
